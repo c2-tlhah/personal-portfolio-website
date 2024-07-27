@@ -6,7 +6,7 @@ export const skillsSection: SkillsSectionType = {
   skills: [
     {
       id: getId(),
-      title: 'Data Engineering using AWS',
+      title: 'Data Engineering',
       lottie: {
         light: '/lotties/frontend.json',
         dark: '/lotties/frontend-dark.json',
