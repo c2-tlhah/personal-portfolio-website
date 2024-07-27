@@ -27,7 +27,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'Apache Hadoop', icon: 'logos:hadoop' },
         { name: 'Apache Hbase', icon: 'logos:hbase' },
         { name: 'Apache Cassandra', icon: 'logos:cassandra'},
-        { name: 'Apache Preto', icon: 'logos:presto'},
+        { name: 'Apache Presto', icon: 'logos:presto'},
         { name: 'Apache Airflow', icon: 'logos:airflow'},
         { name: 'Git', icon: 'logos:git-icon' },
         { name: 'Github', icon: 'logos:github-icon'},
