@@ -12,7 +12,7 @@ export const aboutSection: AboutSectionType = {
       'C',
       'Python',
       'C++',
-      'Pig Latin',
+      'Bash',
       'SQL',
     ],
   },
