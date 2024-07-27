@@ -29,7 +29,7 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
         { name: 'Python', icon: 'vscode-icons:file-type-python' },
         { name: 'Streamlit', icon: 'logos:' },
         { name: 'GROQ', icon: 'logos:' },
-        { name: 'Groq API Theory', icon: 'logos:' },
+        { name: 'Groq API', icon: 'logos:' },
       ],
     },
   ],
