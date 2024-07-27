@@ -7,7 +7,6 @@
         <img src="https://img.shields.io/badge/Visit_my_portfolio-here-orange?style=for-the-badge&logo=firefox&logoColor=white" alt="Visit my portfolio here: o21ex.me">
     </a>
 </p>
-
 <p align="center">
   <a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-brightgreen" /></a>
   <img src="https://img.shields.io/badge/Version-2.0.0-blue" />
