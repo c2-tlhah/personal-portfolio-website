@@ -20,7 +20,7 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Muhammad Talha aka o21ex | Portfolio',
+  title: 'Muhammad Talha | Portfolio',
   description: 'Passionate about Data Engineering and Mahine Learning, focusing on creating innovative digital solutions.',
   author: author.name,
   image: 'https://i.postimg.cc/7hTb4LDz/Portfolio.png',
