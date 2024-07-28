@@ -87,5 +87,3 @@
 ## Show Your Support
 
 Give a ⭐️ if you liked this project!
-
-Credit: [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app)
