@@ -5,7 +5,7 @@ export const heroSection: HeroSectionType = {
     subtitle: 'Hello, I’m',
     title: [
         'Muhammad Talha!',
-        'Big Data Engineer',
+        'Data Engineer',
         'Solutions Architect',
         'Data Scientist'
     ],
