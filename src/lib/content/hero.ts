@@ -18,4 +18,6 @@ export const heroSection: HeroSectionType = {
         url: `/${resumeFileName}`,
         hideInDesktop: true
     }
+
+    
 };
